@@ -1,0 +1,85 @@
+.Fathercontact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .Customform {
+    display: flex!important;
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    width: 300px;
+    margin: 50px;
+  }
+  
+  .labelnamex {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .inputnamex {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .labelemailx {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .inputemailx {
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 15px;
+  }
+  
+  .labelmessage {
+    margin-bottom: 10px;
+    color: white;
+  }
+  
+  .textareacustom {
+    resize: none;
+    overflow: hidden;
+    height: 160px;
+    margin-bottom: 16px;
+    border-radius: 10px;
+  }
+  
+  .custombutton {
+    height: 30px;
+    border: 1px solid rgb(245, 72, 245);
+    background: rgb(191, 0, 191);
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+  }
+  
+  .custombutton:hover {
+    background-color: purple;
+    transition: all 1s;
+  }
+  
+  label {
+    text-align: center;
+  }
+  
+
+  .customtexth1{
+    display: flex;
+    justify-content: center;
+  }
+
+  .customtexth1 h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+  }

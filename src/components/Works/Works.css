@@ -1,0 +1,64 @@
+.containerworks {
+    display: flex;
+    justify-content: center;    
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.tittle {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 60px;
+
+}
+
+.workscontainerx {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-width: 350px;  
+   
+
+}
+
+.orderskills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.camilawork {
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.camilawork:hover {
+    transition: all 1s;
+    transform: scale(1.1);
+
+
+}
+
+.experience {
+    border: 1px solid rgb(195, 0, 195);
+    background: transparent;
+    color: white;
+    border-radius: 20px;
+    padding: 1px 10px;
+    margin-top: 5px;
+}
+
+
+.Glasscontainer{
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
