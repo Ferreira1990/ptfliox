@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react'
 import '../Navbar/Navbar.css'
 import Resume from '../../assets/cvx.pdf'
 
+import Menuiconx from '../../assets/menuIcon.png'
+
 
 const Navbar = () => {
 
@@ -40,7 +42,7 @@ const Navbar = () => {
                 </ul>
             )}
 
-            <button onClick={ToggleNav} className='btn'> <img src="src\assets\menuIcon.png" alt="Menu Icon" /> </button>
+            <button onClick={ToggleNav} className='btn'> <img src={Menuiconx} alt="Menu Icon" /> </button>
         </nav>
     );
 }
