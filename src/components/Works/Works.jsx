@@ -3,6 +3,7 @@ import '../Works/Works.css'
 import Camila from '../../assets/Camila.jpg'
 import Pizza from '../../assets/Pizza.jpg'
 import Form from '../../assets/Logform.jpg'
+import lionel from '../../assets/LUA.jpg'
 
 const Works = () => {
   return (
@@ -23,6 +24,19 @@ const Works = () => {
     <div className='orderskills'><button className='experience'>HTML</button> <button className='experience'>CSS</button>
     <button className='experience'>Pshop</button>
     <button className='experience'>Javascript</button> <button className='experience'>Tailwind</button>
+    </div>
+    <button className='experience'>React + VITE</button>
+</div>
+
+<div className='workscontainerx'>
+    <a href="https://lionel-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <img className='camilawork' src={lionel} alt="Form Work" />
+    </a>
+    
+    <div></div>
+    <div className='orderskills'><button className='experience'>HTML</button> <button className='experience'>CSS</button>
+    <button className='experience'>Pshop</button>
+    <button className='experience'>Javascript</button> <button className='experience'>Bootstrap</button>
     </div>
     <button className='experience'>React + VITE</button>
 </div>
