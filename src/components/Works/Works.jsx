@@ -29,7 +29,7 @@ const Works = () => {
 </div>
 
 <div className='workscontainerx'>
-    <a href="https://lionel-rho.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://agencialua.cl/" target="_blank" rel="noopener noreferrer">
     <img className='camilawork' src={lionel} alt="Form Work" />
     </a>
     
