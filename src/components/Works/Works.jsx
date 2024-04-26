@@ -14,23 +14,8 @@ const Works = () => {
 
         <div className='Glasscontainer'>
 
-
         <div className='workscontainerx'>
-    <a href="https://agencialua.cl/" target="_blank" rel="noopener noreferrer">
-    <img className='camilawork' src={lionel} alt="Form Work" />
-    </a>
-    
-    <div></div>
-    <div className='orderskills'><button className='experience'>HTML</button> <button className='experience'>CSS</button>
-    <button className='experience'>Pshop</button>
-    <button className='experience'>Javascript</button> <button className='experience'>Bootstrap</button>
-    </div>
-    <button className='experience'>React + VITE</button>
-</div>
-
-            
-<div className='workscontainerx'>
-    <a href="https://tok-mauve.vercel.app/" target="_blank" rel="noopener noreferrer">
+    <a href="https://www.notariaclic.cl/" target="_blank" rel="noopener noreferrer">
     <img className='camilawork' src={Tok} alt="Form Work" />
     </a>
     
@@ -39,8 +24,25 @@ const Works = () => {
     <button className='experience'>Pshop</button>
     <button className='experience'>Javascript</button> <button className='experience'>Tailwind</button>
     </div>
-    <button className='experience'>React + VITE</button>
+    <button className='experience'>React + VITE</button>  
 </div>
+
+
+
+
+
+        <div className='workscontainerx'>
+    <a href="https://agencialua.cl/" target="_blank" rel="noopener noreferrer">
+    <img className='camilawork' src={lionel} alt="Form Work" />
+    </a>
+    
+ 
+    <div className='orderskills'><button className='experience'>HTML</button> <button className='experience'>CSS</button>
+    <button className='experience'>Pshop</button>
+    <button className='experience'>Javascript</button> <button className='experience'>Bootstrap</button>
+    </div>
+    <button className='experience'>React + VITE</button>
+</div>            
 
 
             <div className='workscontainerx'>
